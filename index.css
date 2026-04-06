@@ -1,0 +1,92 @@
+.banner {
+
+font-family: Helvetica;
+font-size: 120px;
+font-weight: bold;
+color: khaki;
+white-space: nowrap;  /* text in the 1 line on the banner  V- IMP */  
+
+
+
+position: absolute;    /* image toh bahar kad dinada hega (relative) , absolute text wich leanda hega  */
+left: 50%;
+transform: translate(-50%, -50%);  /* text nu center wich rakhda hega */
+padding-left: 1px;
+display: inline-block;
+
+
+
+}
+
+.banner-img img {
+
+  width: 100%;
+  height: 15vh;     /* image de height ghat karti */
+  object-fit: cover;
+  display: block;
+  margin-top: 25px;
+  overflow: hidden;
+  
+  
+}
+
+
+.brush {
+
+font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white;
+background-color: mediumspringgreen;
+
+}
+
+h3 {
+
+  font-family: helvectica;
+  
+}
+
+.starting {
+
+font-family: Helvetica;
+font-weight: bold;
+color: blue;
+
+}
+
+.frames {
+
+font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white;
+background-color: lightcoral;
+
+}
+
+/* Frames  */
+h3 {
+
+font-family: Helvetica;
+
+}
+
+.starting-frame {
+
+font-family: Helvetica;
+font-weight: bold;
+color: blue;
+
+}
+
+
+.paint {
+
+font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white;
+background-color: skyblue;
+
+}
